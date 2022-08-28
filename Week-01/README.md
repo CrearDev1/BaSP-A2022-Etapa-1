@@ -16,3 +16,7 @@ Day1- Intro the basic estructure of html.
     -Add down arrow inside the  main label. 
     -Add icons for phone number, message and direction in nav label.
     -Deleted aside.
+    
+Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
+    - Inside de article put different section with its titles ,images and  false text.
+    - Add the down-arrow image and up-arrow in the  article.
