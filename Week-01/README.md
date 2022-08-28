@@ -34,4 +34,9 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
     -Add h3 for a title of mision and history
     -Add h2 for a title of article
     -Add image for each section.
-    -Save git.
+    -Save in git.
+
+    -Create a footer label inside put h3 for a trackgenix title and h4 for other titles.
+    - Use a order list and "a" label.
+    -Insert img for social networks.
+    -Save in git.
