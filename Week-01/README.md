@@ -40,3 +40,7 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
     - Use a order list and "a" label.
     -Insert img for social networks.
     -Save in git.
+
+    -Change black icon of main for a white icon.
+    -Add white icon at assets folder.
+    -Save in git.
