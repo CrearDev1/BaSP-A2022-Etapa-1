@@ -28,3 +28,10 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
     -In section with text add image
     -Creat form and ad radio buttons , input text and email , and text area
     -Save in git.
+
+    
+    -Create a new article were i put two section one for mision and other for history
+    -Add h3 for a title of mision and history
+    -Add h2 for a title of article
+    -Add image for each section.
+    -Save git.
