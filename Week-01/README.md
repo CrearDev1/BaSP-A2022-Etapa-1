@@ -44,3 +44,6 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
     -Change black icon of main for a white icon.
     -Add white icon at assets folder.
     -Save in git.
+
+    -Deleted a gigatech software solution text in html document.
+    -Save in git.
