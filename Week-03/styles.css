@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 108px;
+    background-color: #373867;
+    position: sticky;
+    top: 0;
+}
+header img{
+    width: 14px;
+    height: 14px;
+}
+header #header-line{
+    position: absolute;
+    top: 80.51px;
+    left: 42px;
+    width: 1410px;
+    height: 2px;
+
+}
+#header-div-img{
+   position: absolute;
+   top: 60px;
+   right: 135px;
+}
+#header-menu-icon{
+    position: absolute;
+    top: 60px;
+    left: 45px;
+}
+header h1{
+    color: white;
+    position: absolute;
+    top:50px;
+    left: 65px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
