@@ -50,7 +50,13 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
 
     ###Week-03
 
-    Day1- Create relational link wit CSS file.
+    Day1- Create relational link with CSS file.
         -Add styles at header , add position sticky and add image "line" bellow icons and title.
         -Add position absolute for all item in header.
         -Add font family "Roboto" for all html file and copy link of Google Font.
+        -Save in git.
+
+        -Start aside design, setting width and height
+        -Deleted text decoration the "a" label and apply white color font
+        -Apply list style none
+        -Save in git.
