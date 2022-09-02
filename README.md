@@ -72,3 +72,6 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Create css fold and move styles.css and reset.css here.
         -Apply display inline-block for functionalities section.
         -Save in git
+
+    Day3-Add missing section from previus task in html file.
+    
