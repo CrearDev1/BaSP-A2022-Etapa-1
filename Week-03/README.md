@@ -60,3 +60,6 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Deleted text decoration the "a" label and apply white color font
         -Apply list style none
         -Save in git.
+
+        -Finish aside design
+        -Save in git
