@@ -56,13 +56,13 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Add font family "Roboto" for all html file and copy link of Google Font.
         -Save in git.
 
-        -Start aside design, setting width and height
-        -Deleted text decoration the "a" label and apply white color font
-        -Apply list style none
+        -Start aside design, setting width and height.
+        -Deleted text decoration the "a" label and apply white color font.
+        -Apply list style none.
         -Save in git.
 
-        -Completed for the moment aside design
-        -Save in git
+        -Completed for the moment aside design.
+        -Save in git.
 
         -Continius desing the first screenflow and put the all items.
         -Move image-2 with position absolute at first screenflow and same for de other elements
@@ -71,7 +71,13 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
     Day2- Create reset.css and paste link in head.
         -Create css fold and move styles.css and reset.css here.
         -Apply display inline-block for functionalities section.
-        -Save in git
+        -Save in git.
 
     Day3-Add missing section from previus task in html file.
-    
+        -Save in git.
+
+        -Start with "why use tracking?" section and  add class name.
+        -Use a display flex , flex direction column and gao for righ article.
+        -Use position relative for left article ,img and h2.
+        -Add vert-line image for middle.
+        -Save in git. 

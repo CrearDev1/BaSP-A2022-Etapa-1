@@ -182,6 +182,8 @@ aside input{
 .functionalities-section{
     margin-top: 200px;
     margin-left: 20px;
+    border-bottom: 1px solid #373867;
+    height: 600px;
 }
 .functionalities-section article{
    display: inline-block;
@@ -217,4 +219,63 @@ aside input{
     left: 40px;
     top: -80px;
     font-size: 32px;
+}
+
+
+.why-section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-bottom: 1px solid #373867;
+    height: 800px;
+
+}
+
+.why-article{
+    float: left;
+}
+.why-article img{
+    margin-left: 10%;
+}
+.why-article h2{
+    position: relative;
+    left: 440px;
+    bottom: 300px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.why-article-down{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 50%;
+    
+}
+.div-article{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 30%;
+    gap: 25px;
+    margin-right: 10px;
+}
+
+.div-article-p{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 420px;
+    padding: 5px;
+}
+.div-article-p{
+    position: relative;
+    bottom: 570px;
+    right: -130px;
+}
+#vert-line{
+    position: absolute;
+    top: 2000px;
+    left: 600px;
+    height: 700px;
+    color: #00000080;
 }
