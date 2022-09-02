@@ -128,7 +128,50 @@ aside input{
     width: 35px;
     height: 35px;
 }
-
-
 /*Finish aside section*/
+
+.main-section{
+    position: absolute;
+    top: 221px;
+    left: 900px;
+}
+.main-section p{
+    width: 450px;
+    height: 100px;
+}
+
+.main-section img{
+    width: 600px;
+    height: 600px;
+}
+.main-section p{
+    position: absolute;
+    left: -450px;
+    top: 100px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.main-section h2{
+    position: absolute;
+    left: -450px;
+    top: 50px;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.main-section button{
+    position: absolute;
+    left: -450px;
+    top: 300px;
+    padding: 10px 24px;
+    width: 124px;
+    height: 34px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color:rgba(0, 0, 0, 0.5) ;
+}
+
 
