@@ -61,5 +61,9 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Apply list style none
         -Save in git.
 
-        -Finish aside design
+        -Completed for the moment aside design
         -Save in git
+
+        -Continius desing the first screenflow and put the all items.
+        -Move image-2 with position absolute at first screenflow and same for de other elements
+            it's not very responsive.
