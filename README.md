@@ -5,7 +5,7 @@
 1- access to the folder "Semana-01"
 2- open the file "index.html" on your browser
 3- view content
-### Week 01
+### Week 02
 Day1- Intro the basic estructure of html.
     - Create header.
     - Create main what content a section with h1(Bussines name), its p(text false),button  and image.
@@ -47,3 +47,28 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
 
     -Deleted a gigatech software solution text in html document.
     -Save in git.
+
+    ###Week-03
+
+    Day1- Create relational link with CSS file.
+        -Add styles at header , add position sticky and add image "line" bellow icons and title.
+        -Add position absolute for all item in header.
+        -Add font family "Roboto" for all html file and copy link of Google Font.
+        -Save in git.
+
+        -Start aside design, setting width and height
+        -Deleted text decoration the "a" label and apply white color font
+        -Apply list style none
+        -Save in git.
+
+        -Completed for the moment aside design
+        -Save in git
+
+        -Continius desing the first screenflow and put the all items.
+        -Move image-2 with position absolute at first screenflow and same for de other elements
+            it's not very responsive.
+
+    Day2- Create reset.css and paste link in head.
+        -Create css fold and move styles.css and reset.css here.
+        -Apply display inline-block for functionalities section.
+        -Save in git

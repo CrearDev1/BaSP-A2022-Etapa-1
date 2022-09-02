@@ -176,9 +176,28 @@ aside input{
 }
 
 .functionalities-section{
-    margin: 150px;
+    margin-top: 200px;
+    margin-left: 300px;
 }
 .functionalities-section article{
    display: inline-block;
-   width: 45%;
+   width: 40%;
+   margin-right: 50px;
+   margin-bottom: 100px;
+}
+.functionalities-section article p{
+    text-align: left;
+    margin-left: 20px;
+    padding: 20px;
+    width: 500px;
+    text-transform: uppercase;
+}
+.functionalities-section article p img {
+    float: left;
+    margin-right: 15px;
+}
+
+.functionalities-section h2 ,span{
+    text-transform: uppercase;
+    font-weight: 700;
 }
