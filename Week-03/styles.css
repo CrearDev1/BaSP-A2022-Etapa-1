@@ -55,13 +55,80 @@ header h1{
 /*Header finish here*/
 
 /*Start aside section*/
+
 aside{
     width: 325px;
     height: 985px;
     background-color: #373867;
     padding: 20px;
     color: whitesmoke;
+    text-align: left;
+    
 }
+.aside-list{
+    text-transform: uppercase;
+}
+
+.aside-list li {
+    border-bottom: 1px solid #ffffff3b;
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.aside-list p{
+    padding: 20px;
+    border-bottom: 1px solid #ffffff3b;
+    width: 80%;
+    font-weight: 700;
+}
+
+nav{
+    padding: 30px;
+}
+aside input{
+    margin-bottom: 20px;
+    color:#ffffff8a;
+    background-color:  #373867;
+    padding: 8px 15px;
+    border-color: #ffffff8a;
+    border-radius: 5px;
+    font-weight: 100;
+    width: 80%;
+}
+#aside-title{
+    font-weight: 700;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #ffffff3b;
+}
+.aside-second :nth-child(2){
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+.aside-second{
+    padding: 5px;
+    margin-top: 80px;
+}
+
+
+.aside-buttom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.aside-buttom img{
+    margin-right: 5px;
+    width: 22px;
+    height: 22px;
+}
+#aside-email{
+    width: 35px;
+    height: 35px;
+}
+
 
 /*Finish aside section*/
 
