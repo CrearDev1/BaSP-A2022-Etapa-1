@@ -103,3 +103,6 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
 
         -Order code using good practics
         -Save in git.
+
+        -Change images form functionalities section.
+        -Deleted display flex code. 

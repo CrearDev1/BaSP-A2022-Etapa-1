@@ -21,6 +21,17 @@ header{
     z-index: 20;
     background-color: #373867;
 }
+aside{
+    width: 325px;
+    height: 985px;
+    padding: 20px;
+    background-color: #373867;
+    color: whitesmoke;
+    text-align: left;
+}
+nav{
+    padding: 30px;
+}
 header img{
     width: 14px;
     height: 14px;
@@ -51,14 +62,6 @@ header h1{
     font-size: 24px;
     font-weight: 400;
 }
-aside{
-    width: 325px;
-    height: 985px;
-    padding: 20px;
-    background-color: #373867;
-    color: whitesmoke;
-    text-align: left;
-}
 .aside-list{
     text-transform: uppercase;
 }
@@ -73,9 +76,6 @@ aside{
     width: 80%;
     border-bottom: 1px solid #ffffff3b;
     font-weight: 700;
-}
-nav{
-    padding: 30px;
 }
 aside input{
     width: 80%;
@@ -101,12 +101,8 @@ aside input{
     padding: 5px;
     margin-top: 80px;
 }
-.aside-buttom{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: space-between;
-    margin-top: 70px;
+.aside-buttom p{
+    margin-top: 20px;
 }
 .aside-buttom img{
     margin-right: 5px;
@@ -168,25 +164,24 @@ aside input{
 }
 .functionalities-section article{
    display: inline-block;
-   width: 40%;
-   margin-right: 50px;
-   margin-bottom: 100px;  
+   width: 38%;
+   margin-left: 100px;  
+}
+.functionalities-section article img{
+    width: 180px;
+    height: 180px;
 }
 .functionalities-section article p{
+    position: relative;
+    bottom: 150px;
+    left: 160px;
     margin-left: 20px;
     padding: 20px;
-    width: 650px;
+    width: 480px;
     height: 100px;
     text-transform: uppercase;
-    text-align: left;
-    font-size: 20px;
-}
-.functionalities-section article p img {
-    float: left;
-    margin-right: 15px;
-    width: 163px;
-    height: 161px;
-    padding: 10px;   
+    text-align:left;
+    font-size: 16px;
 }
 .functionalities-section h2 ,span{
     text-transform: uppercase;
@@ -196,7 +191,8 @@ aside input{
     position: relative;
     left: 40px;
     top: -80px;
-    font-size: 32px;
+    margin-left: 80px;
+    font-size: 24px;
 }
 .why-section{
     margin-top: 10%;
@@ -222,8 +218,6 @@ aside input{
     font-size: 20px;
 }
 .why-article-down{
-    display: flex;
-    flex-direction: column;
     width: 40%;
     margin-left: 50%;
 }
@@ -238,17 +232,17 @@ aside input{
     margin-bottom: 20px;
 }
 .div-article{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
     width: 20%;
     height: 30%;
     margin-right: 10px;
 }
+.div-article img{
+    margin-bottom: 40px;
+}
+.div-article-p p{
+    margin-bottom: 57px;
+}
 .div-article-p{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
     width: 540px;
     padding: 5px;
     text-transform: uppercase;
@@ -269,8 +263,6 @@ aside input{
     color: #00000080;
 }
 .love-article{
-    display: flex;
-    flex-direction: column;
     width: 45%;
     margin-right: 40px;
     height: 800px;
@@ -295,9 +287,6 @@ aside input{
     line-height: 23px;
 }
 .get-article{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 45%;
     margin-left: 20px;
     height: 800px;
@@ -469,7 +458,7 @@ aside input{
     height: 800px;
     margin:60px;
     padding: 50px;
-    background-color: gainsboro;
+    background-color: rgba(220, 220, 220, 0.432);
     text-transform: uppercase;
     border-radius: 8px;   
 }
