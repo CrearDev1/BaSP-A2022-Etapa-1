@@ -5,6 +5,9 @@
     
 
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 a{
     color: whitesmoke;
     text-decoration: none;
@@ -503,4 +506,53 @@ aside input{
     position: relative;
     left: 200px;
     top: 200px;
+}
+.footer{
+    height: 800px;
+    margin:60px;
+    padding: 50px;
+    background-color: gainsboro;
+    text-transform: uppercase;
+    border-radius: 8px;
+    
+}
+.footer h3{
+    font-size: 32px;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+    top: 75px;
+}
+.footer h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.footer a{
+    font-size: 20px;
+    color: black;
+}
+.footer img{
+    float: right;
+    padding-right: 5px;
+}
+.div-footer-img{
+    border-bottom: 1px solid #373867;
+    padding: 15px;
+}
+#id-products , #id-business , #id-support{
+    position: relative;
+    left: 600px;
+    top: 20px;
+}
+#id-business , #id-support{
+    left: 1000px;
+    top: -95px;
+}
+#id-support{
+    left: 90%;
+    top: -210px;
+}
+.div-column-footer ol{
+    list-style: decimal;
 }
