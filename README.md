@@ -81,16 +81,25 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Use position relative for left article ,img and h2.
         -Add vert-line image for middle.
         -Save in git. 
-        
+
         -Start design WE'D LOVE TO HEAR FROM YOU! section and its form.
         -Aplly display flex and much position relative.
         -I made a lot of changes to the form especially.
         -add more id than i would have wanted.But see it well.
         -Finish WE'D LOVE TO HEAR FROM YOU! section for de moment
         -Save in git.
+
     Day4- Start design about us section.
         - add class name.
         -Float images.
         -Add margins.
         -Edited size.
         .Save in git.
+
+    Day5-Design footer using relative position.
+        -Apply background grey 
+        -Add fonts styles.
+        -Save in git.
+
+        -Order code using good practics
+        -Save in git.
