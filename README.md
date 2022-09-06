@@ -88,3 +88,9 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -add more id than i would have wanted.But see it well.
         -Finish WE'D LOVE TO HEAR FROM YOU! section for de moment
         -Save in git.
+    Day4- Start design about us section.
+        - add class name.
+        -Float images.
+        -Add margins.
+        -Edited size.
+        .Save in git.

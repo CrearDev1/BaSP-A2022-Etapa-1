@@ -460,4 +460,47 @@ aside input{
     left: 120px;
     top: -30px;
 }
+.about-section{
+    height: 800px;
+    border-bottom: 1px solid #373867;
+    border-top: 1px solid #373867;
+    padding: 60px;
+}
+.about-section h2{
+    font-size: 32px;
+    margin-left: 15%;
+    position: relative;
+    top: 15%;
+}
+.about-section p {
+    font-size: 20px;
+    width: 856px;
+    height: 92px;
+    line-height: 23px;
+    color: #000000B2;
+    text-transform: uppercase;
+}
+.about-section h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #37386741;
+    width: 856px;
+}
+.div-about img{
+    margin-left: 200px;
+}
 
+.div-about p , .div-about h3 {
+    position: relative;
+    left: 700px;
+    top: 200px;
+}
+
+.div-history img{
+     float: right;
+}
+.div-history p ,.div-history h3{
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
