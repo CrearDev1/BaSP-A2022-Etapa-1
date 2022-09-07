@@ -106,3 +106,7 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
 
         -Change images form functionalities section.
         -Deleted display flex code. 
+        -Save in git
+
+        -Add pseude-classes hover a some buttons and "a" labels.
+        Save in git. 

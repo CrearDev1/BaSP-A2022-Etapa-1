@@ -30,6 +30,7 @@ aside{
     text-align:left;
 }
 nav{
+    margin-top: 100px;
     padding:30px;
 }
 header img{
@@ -53,16 +54,28 @@ header #header-line{
     top:60px;
     left:45px;
 }
+#header-menu-icon:hover{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+}
 header h1{
     position:absolute;
     top:50px;
     left:65px;
+    margin-left: 10px;
     color:white;
     font-size:24px;
     font-weight:400;
 }
 .aside-list{
     text-transform:uppercase;
+}
+.aside-list ul li a:hover{
+    padding: 15px;
 }
 .aside-list li {
     padding:15px;
@@ -109,6 +122,9 @@ aside input{
     height:22px;
 }
 #aside-email{
+    position: relative;
+    bottom: -10px;
+    left: -5px;
     width:35px;
     height:35px;
 }
@@ -122,8 +138,8 @@ aside input{
     height:100px;
 }
 .main-section img{
-    width:600px;
-    height:600px;
+    width:500px;
+    height:500px;
 }
 .main-section p{
     position:absolute;
@@ -146,7 +162,6 @@ aside input{
     position:absolute;
     left:-450px;
     top:300px;
-    padding:10px 24px;
     width:124px;
     height:34px;
     background-color:#FFFFFF;
@@ -154,6 +169,11 @@ aside input{
     border-radius:5px;
     color:rgba(0, 0, 0, 0.5) ;
     text-align:center;
+}
+.main-section button:hover{
+    background-color: #373867;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 .functionalities-section{
     margin-top:200px;
@@ -337,8 +357,8 @@ aside input{
 .get-article h2{
     position:relative;
     top:-100px;
-    right:60px;
-    width:500px;
+    right:85px;
+    width:520px;
     padding:10px;
     border-bottom:1px solid #373867;
     font-weight:400;
@@ -410,6 +430,9 @@ aside input{
     line-height:17px;
     font-weight:700;
     font-size:14px;
+}
+#submit-buttom:hover{
+    cursor: pointer;
 }
 .about-section{
     height:800px;
