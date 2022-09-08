@@ -47,8 +47,7 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
 
     -Deleted a gigatech software solution text in html document.
     -Save in git.
-
-    ###Week-03
+### Week-03
 
     Day1- Create relational link with CSS file.
         -Add styles at header , add position sticky and add image "line" bellow icons and title.
@@ -110,3 +109,10 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
 
         -Add pseude-classes hover a some buttons and "a" labels.
         Save in git. 
+
+### Week-04 
+
+    Day1-Copy index.html of Semana-02, assets folder and reset.html ,
+         create css folder with header.css and rest.cssfile inside.
+        -Add relational link of header.css and reset.css in index.html.
+        -Follow mobile first start design header.
