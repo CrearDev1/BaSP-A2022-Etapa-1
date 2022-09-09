@@ -116,3 +116,7 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
          create css folder with header.css and rest.cssfile inside.
         -Add relational link of header.css and reset.css in index.html.
         -Follow mobile first start design header.
+
+    Day2-Continue header design apply flexbox tool.
+        -Create styles.css and add "Roboto" font-family.
+        -Add relational link of styles.css file in index.html

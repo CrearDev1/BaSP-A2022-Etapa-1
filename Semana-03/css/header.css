@@ -7,17 +7,26 @@ header{
     background-color:#373867;
 }
 header h1{
+    flex: 3;
+    margin-left: 1%;
     color:white;
     font-size:24px;
     font-weight:400;
-    margin-left: 1%;
+}
+#header-menu-icon{
+    flex: 0;
+    margin-left: 6%;
 }
 header img{
     width: 18px;
     height: 18px;
 }
 #header-img{
-    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%;
+    flex: 1;
 }
 #header-line{
     width: 90%;
@@ -26,7 +35,7 @@ header img{
 }
 .header-container{
     display: flex;
-    margin-top: 3%;
+    margin-top: 4%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
