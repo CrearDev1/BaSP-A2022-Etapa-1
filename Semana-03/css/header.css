@@ -1,7 +1,7 @@
 header{
     position:sticky;
     width:100vw;
-    height:108px;
+    height:5%;
     top:0;
     z-index:20;
     background-color:#373867;
@@ -14,8 +14,12 @@ header h1{
     font-weight:400;
 }
 #header-menu-icon{
-    flex: 0;
+    width: 30px;
+    height: 30px;
     margin-left: 6%;
+}
+header div #header-img img{
+    display: none;
 }
 header img{
     width: 18px;
@@ -35,6 +39,7 @@ header h1 ,#header-img,#header-menu-icon{
     width: 90%;
     height: 2px;
     margin-left: 4.5%;
+    margin-bottom: 1%;
 }
 .header-container{
     display: flex;

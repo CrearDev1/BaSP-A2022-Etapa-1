@@ -127,3 +127,8 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Create main.css file and start with its design.
         -Hide button of ".main-section" 
         -".main-section" complete for the moment.
+        -Save in git.
+
+        -Start design functionalities section.
+        -Apply row-reverse for articles they needed
+        -Complete functionalities section for the moment using mobile first focus.

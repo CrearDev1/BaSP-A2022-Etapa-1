@@ -1,11 +1,14 @@
 .main-section h2{
-    text-transform: uppercase;
+    border-bottom: 2px solid #C4C4C4;
 }
 .main-section{
     display: flex;
     flex-direction: column;
     height: 30%;
     margin-bottom: 20%;
+}
+.main-section img{
+    border-radius: 14px;
 }
 .main-section p ,.main-section h2 ,.main-section img{
     margin: 3%;
@@ -15,8 +18,39 @@
 .main-section p{
     font-weight: 400;
     font-size: 18px;
-    line-height: 2;
+    line-height: 1.5;
 }
 .main-section button{
     display: none;
+}
+.functionalities-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20%;
+    background-color:#DDDDE5;
+    margin: 3%;
+    padding: 1%;
+}
+.functionalities-section img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.functionalities-section h2{
+    display: none;
+}
+.functionalities-section p{
+    color: #000000D1;
+    line-height: 1.5;
+    font-size: 12px;
+}
+.functionalities-section article{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.functionalities-section :nth-child(3) ,.functionalities-section :nth-child(5){
+    flex-direction: row-reverse;
 }
