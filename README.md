@@ -119,4 +119,11 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
 
     Day2-Continue header design apply flexbox tool.
         -Create styles.css and add "Roboto" font-family.
-        -Add relational link of styles.css file in index.html
+        -Add relational link of styles.css file in index.html .
+        -Complete header for de moment.
+        -Save in git.
+
+        -Hide the aside and start with the first section of the main.
+        -Create main.css file and start with its design.
+        -Hide button of ".main-section" 
+        -".main-section" complete for the moment.

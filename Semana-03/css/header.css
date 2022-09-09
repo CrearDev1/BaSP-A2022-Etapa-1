@@ -1,5 +1,5 @@
 header{
-    position:fixed;
+    position:sticky;
     width:100vw;
     height:108px;
     top:0;
@@ -21,12 +21,15 @@ header img{
     width: 18px;
     height: 18px;
 }
+header h1 ,#header-img,#header-menu-icon{
+    margin-top: 4%;
+}
 #header-img{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1%;
     flex: 1;
+    gap: 1%;
 }
 #header-line{
     width: 90%;
@@ -35,7 +38,6 @@ header img{
 }
 .header-container{
     display: flex;
-    margin-top: 4%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
