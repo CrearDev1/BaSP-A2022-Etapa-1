@@ -60,6 +60,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20%;
+    margin-bottom: 20%;
 }
 .why-article{
     display: flex;
@@ -218,4 +219,76 @@
     font-size:12px;
     border-radius: 0;
 }
-
+.about-section{
+    margin: 5%;
+    margin-bottom: 30%;
+    margin-top: 20%;
+}
+.about-section h2{
+    margin-left: 2%;
+}
+.about-section h2 , .about-section h3 {
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+.about-section article img{
+    width: 137px;
+    height: 133px;
+    border-radius: 8px;
+}
+.about-section p{
+    padding: 5%;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: left;
+}
+.about-section p span{
+    font-weight: lighter;
+    text-transform: lowercase;
+    display: none;
+}
+.about-section article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.about-section :nth-child(3){
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.line-mission h3{
+    text-align: end;
+    margin-top: 4%;
+    margin-left: 2%;
+    font-size: 13px;
+}
+.line-mission {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.line-mission img{
+    width: 70%;
+    height: 2px;
+    background-color: #000000;
+    color: #000000;
+}
+#history-title{
+    margin-right:2%;
+}
+footer{
+    margin: 2%;
+    background-color: #DDDDE5;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+}
+#id-products ,#id-support,#id-business{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

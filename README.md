@@ -142,3 +142,8 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Complete the form section.
         -Continue with the next section.
         -Save in git.
+
+        -Create footer.css file and add relational link in index.html
+        -Start design footer.
+        -Complete design footer.
+        -Save in git.
