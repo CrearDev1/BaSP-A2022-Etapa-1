@@ -148,12 +148,11 @@
             </section>
             <section class="section-form">
                 <article class="love-article">
-                    <img id="line-form" src="assets/vert-line-2.png" alt="line">
                     <h2>We'd love to hear from you! </h2>
-                    <div>
-                        <img id="send-img" src="assets/send-m.png" alt="Message">
-                        <img id="send-img-2"src="assets/love.png" alt="love">
+                    <div class="love-img">
                         <img id="send-img-3"src="assets/send-m2.png" alt="Message">
+                        <img id="send-img-2"src="assets/love.png" alt="love">
+                        <img id="send-img" src="assets/send-m.png" alt="Message">
                     </div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -167,20 +166,36 @@
                 <article class="get-article">
                     <h2>GET IN TOUCH</h2>
                     <form action="#">
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" id="name">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email">
-                        <label id="select-area">Select an area</label>
-                        <input id="radio-1"type="radio" id="Human-resources" name="Human-resources" value="Human-resources">
-                        <label id="human"for="Human-resources">Human-resources</label>
-                        <input id="radio-2"type="radio" id="System" name="System" value="System">
-                        <label id="system"for="System">System</label>
-                        <input id="radio-3"type="radio" id="Business" name="Business" value="Business">
-                        <label id="Business"for="Business">Business</label>
-                        <label id="message"for="Message">Message</label>
-                        <textarea name="Message" id="Message" cols="60" rows="8"></textarea>
-                        <input id="submit-buttom"type="submit" name="submit" id="submit" value="Submit">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div>    
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="select-area-radio">   
+                            <label id="select-area">Select an area:</label>
+                            <div> 
+                                <input id="radio-1"type="radio" id="Human-resources" name="Human-resources" value="Human-resources">
+                                <label id="human" class="radio-block" for="Human-resources">Human-resources</label>
+                            </div>
+                            <div>
+                                <input id="radio-2"type="radio" id="System" name="System" value="System">
+                                <label  id="system" class="radio-block"for="System">System</label>
+                            </div>
+                            <div>
+                                <input id="radio-3"type="radio" id="Business" name="Business" value="Business">
+                                <label id="Business" class="radio-block"for="Business">Business</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label id="message"for="Message">Message</label>
+                            <textarea name="Message" id="Message" cols="60" rows="8"></textarea>
+                        </div>
+                        <div>
+                            <input id="submit-buttom"type="submit" name="submit" id="submit" value="Submit">
+                        </div>
                     </form>
                 </article>
             </section>

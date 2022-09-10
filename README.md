@@ -136,3 +136,9 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
 
         -Start design "why-section" and complete for de moment.
         -Save in git.
+
+        -Design form section , hide text.
+        -Add div in index.html to separate and to ease design.
+        -Complete the form section.
+        -Continue with the next section.
+        -Save in git.
