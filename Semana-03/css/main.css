@@ -54,3 +54,62 @@
 .functionalities-section :nth-child(3) ,.functionalities-section :nth-child(5){
     flex-direction: row-reverse;
 }
+.why-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+.why-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why-article img{
+    display: flex;
+    margin: 5%;
+}
+.why-article h2{
+    width: 70%;
+    padding: 5%;
+    border-bottom: 2px solid #383768;
+    text-align: center;
+    text-transform: uppercase;
+}
+.why-article h2 span{
+    font-size: 20px;
+}
+.why-article-down{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3%;
+    border-bottom: 2px solid #C4C4C4;
+    width: 80%;
+}
+.why-article-down div{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+.why-article-down div img{
+    margin: 1%;
+    width: 48px;
+    height: 48px;
+}
+.why-article-down div p{
+    color: #000000CC;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 2%;
+}
+.why-article-down :nth-child(2),.why-article-down :nth-child(4){
+    flex-direction: row-reverse;
+}
+.why-article-down div p{
+    font-size: 12px;
+}
+#vert-line{
+    display: none;
+}
