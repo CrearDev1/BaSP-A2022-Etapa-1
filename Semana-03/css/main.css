@@ -29,47 +29,6 @@
     border-radius:5px;
     color:rgba(0, 0, 0, 0.5) ;
 }
-@media screen and (min-width:480px) {
-    .main-section button{
-        display: inline;
-        margin-top: 50%;
-        margin-left: 16%;
-    }
-    .main-section-div div p{
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 400;
-    }
-    .main-section-div div h2 span{
-        font-size: 20px;
-        color: #000;
-        font-weight: 500;
-    }
-    .main-section-div{
-        display: flex;
-        flex-direction: row;
-        margin: 5%;
-    }
-    .main-section-div h2{
-        border: none;
-    }
-    .main-section-div :first-child{
-        flex: 1;
-        margin-left: 5%;
-        padding: 3%;
-    }
-    .main-section-div :nth-child(2){
-        flex: 1;
-    }
-    section .functionalities-section article{
-       flex-direction: row;
-    }
-    @media screen and (min-width:480px){
-        .functionalities-section article{
-            display: none;
-        }
-    }
-}
 .functionalities-section{
     display: flex;
     flex-wrap: wrap;
@@ -341,4 +300,60 @@ footer div{
     flex: 1;
     display: flex;
     flex-direction: column;
+}
+@media screen and (min-width:480px) {
+    .main-section button{
+        display: inline;
+        margin-top: 50%;
+        margin-left: 16%;
+    }
+    .main-section-div div p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .main-section-div div h2 span{
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+    .main-section-div{
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+    }
+    .main-section-div h2{
+        border: none;
+    }
+    .main-section-div :first-child{
+        flex: 1;
+        margin-left: 5%;
+        padding: 3%;
+    }
+    .main-section-div :nth-child(2){
+        flex: 1;
+    }
+    .functionalities-section h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid #555555;
+        width: 100%;
+        padding-bottom:4% ;
+        padding-top:4% ;
+    }
+    .functionalities-section :nth-child(3) ,.functionalities-section :nth-child(5){
+        flex-direction: row;
+    }
+    .functionalities-section div{
+        background-color: white;
+        display: block;
+        width: 100%;
+        padding: 5%;
+        border-radius: 9px 0px 0px 0px;
+    }
+    .functionalities-section{
+        border-radius: 9px;
+        padding: 0;
+        margin-bottom: 0;
+    }
 }
