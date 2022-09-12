@@ -147,3 +147,9 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Start design footer.
         -Complete design footer.
         -Save in git.
+
+    Day3-Create link in Git Hub Pages and view content.
+        -Make some change in footer(Deleted margin and improve space) , 
+            in header change width 100vw for a 100% , in why use trackgenix 
+            section add max-width with 70% and max-height with 90%.
+        -Save in git.

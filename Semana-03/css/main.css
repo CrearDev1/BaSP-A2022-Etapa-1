@@ -50,6 +50,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 10%;
+    margin: 5%;
 }
 .functionalities-section :nth-child(3) ,.functionalities-section :nth-child(5){
     flex-direction: row-reverse;
@@ -70,6 +71,8 @@
 .why-article img{
     display: flex;
     margin: 5%;
+    max-width: 90%;
+    max-height: 80%;
 }
 .why-article h2{
     width: 70%;
