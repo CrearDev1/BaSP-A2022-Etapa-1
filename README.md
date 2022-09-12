@@ -153,3 +153,8 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
             in header change width 100vw for a 100% , in why use trackgenix 
             section add max-width with 70% and max-height with 90%.
         -Save in git.
+
+    Day4-Start Tablet design , use MQ.
+        -Add change in ".main-section".Change display of button and add div in index.html.
+        -Continue for a functionalities section.
+        -Save in git.
