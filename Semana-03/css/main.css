@@ -37,7 +37,7 @@
     margin: 3%;
     padding: 1%;
 }
-.functionalities-section img{
+.functionalities-section article img{
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -51,6 +51,11 @@
     color: #000000D1;
     line-height: 1.5;
     font-size: 12px;
+}
+#span-text{
+    text-transform: lowercase;
+    font-weight: 400;
+    display: none;
 }
 .functionalities-section article{
     display: flex;
@@ -301,10 +306,10 @@ footer div{
     display: flex;
     flex-direction: column;
 }
-@media screen and (min-width:480px) {
+@media screen and (min-width:768px) {
     .main-section button{
         display: inline;
-        margin-top: 50%;
+        margin-top: 30%;
         margin-left: 16%;
     }
     .main-section-div div p{
@@ -341,6 +346,13 @@ footer div{
         padding-bottom:4% ;
         padding-top:4% ;
     }
+    .functionalities-section div{
+        padding: 0;
+        margin: 0;
+    }
+    .functionalities-section{
+        padding: 0;
+    }
     .functionalities-section :nth-child(3) ,.functionalities-section :nth-child(5){
         flex-direction: row;
     }
@@ -349,11 +361,157 @@ footer div{
         display: block;
         width: 100%;
         padding: 5%;
-        border-radius: 9px 0px 0px 0px;
+    }
+    #span-text{
+        display: inline;
+    }
+    #Message , #message{
+        width: 614px;
+    }
+    #message{
+        margin-bottom: 2%;
+    }
+    .get-article form div input{
+        width: 689px;
+    }
+    .get-article form .select-area-radio div{
+        width: 510px;      
+    }
+    .div-about p span{
+        display: inline;
+    }
+    .div-history p span{
+        display: inline;
+    }
+    .get-article .form-label label{
+        margin-bottom: 2%;
+    }
+    #submit-buttom{
+        width: 93px;
+        height: 24px;
+    }
+}
+@media screen and (min-width:900px){
+    .main-section{
+        flex-direction: row-reverse;
+    }
+    .main-section img{
+        max-width: 60%;
+        max-height: 80%;
+    }
+    .main-section-div{
+        flex-direction: column;
+    }
+    .main-section-div div h2{
+        margin-left: 0 ;
     }
     .functionalities-section{
-        border-radius: 9px;
-        padding: 0;
-        margin-bottom: 0;
+        padding-left:15%;
+        background-color: white;
+        margin-right: 0;
+    }
+    .functionalities-section article{
+        width: 40%;
+        margin: 3%;
+    }
+    .functionalities-section article img{
+        width: 100px;
+        height: 100px;
+    }
+    .functionalities-section article p{
+        width: 60%; 
+    }
+    .functionalities-section h2{
+        border: none;
+        margin: 0%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .why-article h2{
+        border: none;
+    }
+    .why-section{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .why-article{
+        flex-direction: row;
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 0;
+    }
+    .why-article-down{
+        margin-left: 25%;
+        height: 60%;
+        padding-left:2% ;
+        border-left: 2px solid #C4C4C4;
+        border-bottom: none;
+    }
+    .why-article-down div{
+        padding: 0%;
+        padding-bottom: 3%;
+        
+    }
+    .why-article-down div p {
+        width: 40%;
+        flex: 1;
+    }
+    .why-article-down :nth-child(2),.why-article-down :nth-child(4){
+        flex-direction: row;
+    }
+    .love-article p{
+        display: inline;
+        color: #555555;
+        text-transform: uppercase;
+        line-height: 1.5;
+        margin-bottom: 50%;
+    }
+    .section-form{
+        flex-direction: row;
+    }
+    .love-article{
+        width: 50%;
+        margin-bottom: 20%;
+    }
+    .love-article h2{
+        margin-top: 0;
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    .love-article{
+        margin-bottom: 20%;
+    }
+    .love-img{
+        margin-bottom: 20%;
+        margin-left: 7%;
+    }
+    .get-article{
+       width: 40%;
+       border-left: 2px solid #C4C4C4;
+       margin-bottom: 0;
+    }
+    #Message , #message{
+        width: 400px;
+    }
+    #message{
+        margin-bottom: 2%;
+    }
+    .get-article form div input{
+        width: 400px;
+    }
+    .get-article form .select-area-radio div{
+        width: 200px;      
+    }
+    .get-article form .select-area-radio{
+        margin-right: 33%;
+    }
+    .get-article h2{
+        display: block;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #C4C4C4;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 3%;
+        padding-left: 10%;
     }
 }

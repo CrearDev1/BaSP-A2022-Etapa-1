@@ -47,4 +47,10 @@ header h1 ,#header-img,#header-menu-icon{
     align-items: center;
     flex-wrap: wrap;
 }
+@media screen and (min-width:900px){
+    header div #header-img img{
+        display: flex;
+        
+    }
+}
 
