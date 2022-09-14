@@ -1,27 +1,27 @@
 aside{
-    position: sticky;
-    top: 0;
-    left: 0;
+    position:sticky;
+    top:0;
+    left:0;
 }
 aside{
-    font-size: 16px;
-    padding: 4%;
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: 100vh;
-    color: white;
-    background-color: #373867;
+    display:flex;
+    flex-direction:column;
+    padding:4%;
+    width:70%;
+    height:100vh;
+    color:white;
+    background-color:#373867;
+    font-size:16px;
 }
 aside{
-    display: none;
+    display:none;
 }
 #aside-p{
-    line-height: 1.5;
+    line-height:1.5;
 }
 aside a{
-    color: white;
-    text-decoration: none;
+    color:white;
+    text-decoration:none;
 }
 aside nav input {
     width:80%;
@@ -34,69 +34,66 @@ aside nav input {
     font-weight:100;
  }
  .aside-list p{
-    border-bottom: 2px solid white;
-    padding: 2%;
-    margin-bottom: 2%;
-    text-transform: uppercase;
-    width: 100%;
-    
-    } 
- .aside-list ul li{
-    margin-bottom: 8%;
-    border-bottom: 1px solid white;
-    padding: 1%;
-    text-transform: uppercase;
+     padding:2%;
+     margin-bottom:2%;
+     width:100%;
+    border-bottom:2px solid white;
+    text-transform:uppercase;
+} 
+.aside-list ul li{
+    margin-bottom:8%;
+    border-bottom:1px solid white;
+    padding:1%;
+    text-transform:uppercase;
 }
 #aside-title{
-    margin-top: 15%;
-    margin-bottom: 8%;
-    border-bottom: 2px solid white;
-    font-weight: 600;
+    margin:15% 0% 8% 0%;
+    border-bottom:2px solid white;
+    font-weight:600;
 }
 .aside-buttom{
-    display: flex;
-    flex-direction: column;   
+    display:flex;
+    flex-direction:column;   
     justify-content:flex-start;
-    align-items: flex-start;
+    align-items:flex-start;
 }
 .aside-buttom p{
-    text-decoration: none;
+    text-decoration:none;
 }
-
 .aside-buttom div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display:flex;
+    flex-direction:row;
     justify-content:flex-start;
-    margin-bottom: 2%;
-    margin-top: 3%;
-    width: 100%;
+    align-items:center;
+    width:100%;
+    margin-bottom:2%;
+    margin-top:3%;
 }
 .aside-buttom div img{
-    margin-right: 5%;
+    margin-right:5%;
 }
 .aside-buttom div p{
-    display: flex;
+    display:flex;
 }
 @media screen and (min-width:768px) {
     aside{
-        display: none;
-        width: 80%;
+        display:none;
+        width:80%;
      }
      .aside-list ul li{
-        margin-bottom: 2%;
+        margin-bottom:2%;
     }
     #aside-title{
-        margin-top: 8%;
-        margin-bottom: 4%;
+        margin-top:8%;
+        margin-bottom:4%;
     }
     #aside-p{
-        margin-bottom: 3%;
+        margin-bottom:3%;
     }
 }
-@media screen and  (min-width:900px){
+@media screen and (min-width:900px){
     aside{
-        display: none;
-        width: 20%
+        display:none;
+        width:20%
     }
 }

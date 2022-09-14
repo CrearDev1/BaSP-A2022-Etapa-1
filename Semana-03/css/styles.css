@@ -1,7 +1,2 @@
-body{
-    font-family:'Roboto', sans-serif;
-}
-span{
-    text-transform: uppercase;
-    font-weight: bold;
-}
+body{font-family:'Roboto',sans-serif;}
+span{text-transform:uppercase;font-weight:bold;}
