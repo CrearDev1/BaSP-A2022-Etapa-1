@@ -158,3 +158,11 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Add change in ".main-section".Change display of button and add div in index.html.
         -Continue for a functionalities section.
         -Save in git.
+
+### Week-05
+
+    Day1-Create folds Semana-04 , exercisess and .js files.
+        -Add index.html in Semana-04 and relational links of js files.
+        -Start with exercises. 
+        -Complete block one.
+        -Save in git.
