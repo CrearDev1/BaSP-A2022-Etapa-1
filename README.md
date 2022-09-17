@@ -166,3 +166,7 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Start with exercises. 
         -Complete block one.
         -Save in git.
+
+    Day2-Continue for exercises and finish block  2 ,3 and 4.
+        -Start block 5.
+        -Save in git for each block. 
