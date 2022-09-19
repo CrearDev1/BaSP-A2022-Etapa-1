@@ -38,12 +38,32 @@ console.log('\n Exercises 6.d');
  function sum2(x,y){
     if(isNaN(x)||isNaN(y))
         return NaN;
-    else if(validateInteger(x)&&validateInteger(y)){
+    else if(validateInteger(x)&&validateInteger(y))
         return x+y;
-    }else if(validateInteger(x)==false){
-        alert('Error no es entero: '+parseInt(x));
-    }else if(validateInteger(y)==false){
-        alert('Error no es entero: '+parseInt(y));
-    }
+    else if(validateInteger(x)==false&&validateInteger(y)==false)
+        alert('Error '+x+' y '+y+' no son enteros: '+Math.round(x)+' -- '+Math.round(y)+' (redondeados)');
+    else if(validateInteger(x)==false)
+        alert('Error '+x+' no es entero: '+Math.round(x)+' (redondeo)');
+    else if(validateInteger(y)==false)
+        alert('Error '+y+' no es entero: '+Math.round(y)+' (redondeo)');
 }
-console.log(sum2(10,10));
+console.log(sum2(8.999999,10.5));
+
+console.log('\n Exercises 6.e');
+/**Convertir la validación del ejercicio 6d) en una función separada 
+ * y llamarla dentro de la función suma probando que todo siga funcionando igual. */
+function validate1(x,y){
+if(validateInteger(x)==false&&validateInteger(y)==false)
+    alert('Error '+x+' y '+y+' no son enteros: '+Math.round(x)+' -- '+Math.round(y)+' (redondeados)');
+else if(validateInteger(y)==false)
+    alert('Error '+y+' no es entero: '+Math.round(y)+' (redondeo)');
+else if(validateInteger(x)==false)
+    alert('Error '+x+' no es entero: '+Math.round(x)+' (redondeo)');
+}
+function sum3(x,y){
+    if(isNaN(x)||isNaN(y))
+    return NaN;
+else if(validate1(x,y))
+    return x+y;
+}
+console.log(sum3(3.285,10.5222));
