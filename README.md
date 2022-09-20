@@ -170,3 +170,13 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
     Day2-Continue for exercises and finish block  2 ,3 and 4.
         -Start block 5.
         -Save in git for each block. 
+    
+    Day3-Finish block 6 and improve code.
+        -Save in git.
+
+    Day4-Improve task form last week and order code.
+        -View if all is ok.
+        -Save in git.
+        -Send work.
+
+        Answer-https://creardev1.github.io/BaSP-A2022-Etapa-1/
