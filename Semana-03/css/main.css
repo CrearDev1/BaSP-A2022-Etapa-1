@@ -1,4 +1,5 @@
 .main-section h2{
+    padding: 10% 0 5% 5%;
     border-bottom:2px solid #C4C4C4;
 }
 .main-section{
@@ -13,17 +14,18 @@
 .main-section p,.main-section h2,.main-section img{
     margin:3%;
     color:rgba(0, 0, 0, 0.7);
-
 }
 .main-section p{
+    padding:0 5% 0 5%;
     font-weight:400;
     font-size:18px;
     line-height:1.5;
 }
 .main-section button{
-    display:none;
+    align-self: center;
     width:124px;
     height:34px;
+    margin:5% 0 0 30%;
     border:1px solid rgba(0, 0, 0, 0.5);
     border-radius:5px;
     background-color:#FFFFFF;
@@ -155,15 +157,12 @@
 .love-img :nth-child(1){
     width:32px;
     height:32px;
-    margin-left:27%;
-    margin-bottom:1%;
+    margin:0 0 1% 27%;
 }
 .love-img :nth-child(2){
     width:25px;
     height:25px;
-    margin-bottom:2%;
-    margin-left:3%;
-    margin-right:2%;
+    margin: 0 2% 2% 3%;
 }
 .love-img :nth-child(3){
     width:41px;
@@ -182,7 +181,7 @@
     justify-content:center;
     align-items:center;
 }
-#Message , #message{
+#Message,#message{
     width:288px;
 }
 .get-article form div label{
@@ -239,7 +238,7 @@
 .about-section h2{
     margin-left:2%;
 }
-.about-section h2 , .about-section h3 {
+.about-section h2,.about-section h3{
     font-weight:600;
     margin-bottom:4%;
 }
@@ -266,7 +265,7 @@
     align-items:center;
     margin:5%;
 }
-.about-section :nth-child(3){
+.about-section:nth-child(3){
     flex-direction:row-reverse;
     align-items:center;
 }
@@ -276,7 +275,7 @@
     margin-left:2%;
     font-size:13px;
 }
-.line-mission {
+.line-mission{
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -304,11 +303,10 @@ footer div{
     display:flex;
     flex-direction:column;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px){
     .main-section button{
         display:inline;
         margin-top:30%;
-        margin-left:16%;
     }
     .main-section-div div p{
         font-size:14px;
@@ -340,8 +338,8 @@ footer div{
         justify-content:center;
         align-items:center;
         width:100%;
-        padding-bottom:4% ;
-        padding-top:4% ;
+        padding-bottom:4%;
+        padding-top:4%;
         border-bottom:2px solid #555555;
     }
     .functionalities-section div{
@@ -363,7 +361,7 @@ footer div{
     #span-text{
         display:inline;
     }
-    #Message , #message{
+    #Message,#message{
         width:614px;
     }
     #message{
@@ -392,25 +390,33 @@ footer div{
 @media screen and (min-width:900px){
     .main-section{
         flex-direction:row-reverse;
+        align-items:flex-end;
+        width:70%;
+        margin-left:25%;
     }
     .main-section img{
-        max-width:60%;
-        max-height:80%;
+        align-self:flex-start;
+        margin:0;
+        margin:8% 10% 0 0;
+        max-width:30%;
+        max-height:50%;
+    }
+    .main-section-div button{
+        margin-left: 8%;
     }
     .main-section-div{
         flex-direction:column;
-    }
-    .main-section-div div h2{
         margin-left:0;
+        margin-right:0;    
+        max-width:50%;
     }
     .functionalities-section{
-        padding-left:15%;
-        margin-right:0;
+        padding-left:5%;
+        margin-left:25%;
         background-color:white;
     }
     .functionalities-section article{
         width:40%;
-        margin:3%;
     }
     .functionalities-section article img{
         width:100px;
@@ -422,11 +428,15 @@ footer div{
     .functionalities-section h2{
         display:flex;
         justify-content:flex-start;
-        margin:0%;
+        margin-left:5%;
         border:none;
+    }
+    .why-article h2 span{
+        font-size:14px;
     }
     .why-article h2{
         border:none;
+        font-size:12px;
     }
     .why-section{
         flex-direction:row;
@@ -434,24 +444,30 @@ footer div{
     }
     .why-article{
         flex-direction:row;
-        width:40%;
-        margin-left:5%;
-        margin-right:0;
+        width:50%;
+        margin:0 0 0 5%;
+    }
+    .why-article img{
+        max-width:35%;
+        max-height:20%;
+        margin:0 0 0 48%;
     }
     .why-article-down{
-        margin-left:25%;
-        height:60%;
+        width:50%;
+        height:90%;
+        margin-right:0;
+        margin-left:7%;
         padding-left:2%;
         border-left:2px solid #C4C4C4;
         border-bottom:none;
+        flex:5;
     }
     .why-article-down div{
         padding:0%;
-        padding-bottom:3%;
-        
+        padding-bottom:3%;        
     }
     .why-article-down div p {
-        width:40%;
+        width:70%;
         flex:1;
     }
     .why-article-down :nth-child(2),.why-article-down :nth-child(4){
@@ -461,11 +477,15 @@ footer div{
         display:inline;
         margin-bottom:50%;
         color:#555555;
+        font-size:14px;
         line-height:1.5;
         text-transform:uppercase;
     }
     .section-form{
         flex-direction:row;
+        margin:0;
+        margin-left:33%;
+        width:65%;
     }
     .love-article{
         width:50%;
@@ -488,20 +508,20 @@ footer div{
        margin-bottom:0;
        border-left:2px solid #C4C4C4;
     }
-    #Message , #message{
-        width:400px;
+    #Message,#message{
+        width:100%;
     }
     #message{
         margin-bottom:2%;
     }
+    .get-article form div{
+        width:100%;
+    }
     .get-article form div input{
-        width:400px;
+        width:100%;
     }
     .get-article form .select-area-radio div{
-        width:200px;      
-    }
-    .get-article form .select-area-radio{
-        margin-right:33%;
+        width:70%;     
     }
     .get-article h2{
         display:block;
@@ -511,5 +531,11 @@ footer div{
         border-bottom:1px solid #C4C4C4;
         font-weight:600;
         font-size:20px;
+    }.about-section{
+        margin-right:0;
+        margin-left:30%;
+    }
+    .about-section h2{
+        margin-left:8%;
     }
 }
