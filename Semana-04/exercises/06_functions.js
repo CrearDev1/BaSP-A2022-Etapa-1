@@ -36,16 +36,21 @@ console.log('\n Exercises 6.d');
  * sean enteros. En caso que haya decimales mostrar un alerta 
  * con el error y retornar el número convertido a entero (redondeado). */
  function sum2(x,y){
-    if(isNaN(x)||isNaN(y))
+    if(isNaN(x)||isNaN(y)){
         return NaN;
-    else if(validateInteger(x)&&validateInteger(y))
+    }else if(validateInteger(x)&&validateInteger(y)){
         return x+y;
-    else if(validateInteger(x)==false&&validateInteger(y)==false)
-        alert('Error '+x+' y '+y+' no son enteros: '+Math.round(x)+' -- '+Math.round(y)+' (redondeados)');
-    else if(validateInteger(x)==false)
-        alert('Error '+x+' no es entero: '+Math.round(x)+' (redondeo)');
-    else if(validateInteger(y)==false)
-        alert('Error '+y+' no es entero: '+Math.round(y)+' (redondeo)');
+    }else if(validateInteger(x)==false&&validateInteger(y)==false){
+        var array1=[Math.round(x),Math.round(y)];
+        alert('Error '+x+' and '+y+' not is integer: '+Math.round(x)+' -- '+Math.round(y)+' (Rounding)');
+        return  array1;
+    }else if(validateInteger(x)==false){
+        alert('Error '+x+' not is integer: '+Math.round(x)+' (Rounding)');
+        return Math.round(x);
+    }else if(validateInteger(y)==false){
+        alert('Error '+y+' not is integer: '+Math.round(y)+' (Rounding)');
+        return Math.round(y);
+    }
 }
 console.log(sum2(8.999999,10.5));
 
@@ -53,17 +58,25 @@ console.log('\n Exercises 6.e');
 /**Convertir la validación del ejercicio 6d) en una función separada 
  * y llamarla dentro de la función suma probando que todo siga funcionando igual. */
 function validate1(x,y){
-if(validateInteger(x)==false&&validateInteger(y)==false)
-    alert('Error '+x+' y '+y+' no son enteros: '+Math.round(x)+' -- '+Math.round(y)+' (redondeados)');
-else if(validateInteger(y)==false)
-    alert('Error '+y+' no es entero: '+Math.round(y)+' (redondeo)');
-else if(validateInteger(x)==false)
-    alert('Error '+x+' no es entero: '+Math.round(x)+' (redondeo)');
+    if(validateInteger(x)&&validateInteger(y)){
+        return x+y;
+    }else if(validateInteger(x)==false&&validateInteger(y)==false){
+        alert('Error '+x+' y '+y+' not is integer: '+Math.round(x)+' -- '+Math.round(y)+' (Rounding)');
+        var array1=[Math.round(x),Math.round(y)];
+        return array1;
+    }else if(validateInteger(y)==false){
+        alert('Error '+y+' not is integer: '+Math.round(y)+' (Rounding)');
+        return Math.round(y);
+    }else if(validateInteger(x)==false){
+        alert('Error '+x+' not is integer: '+Math.round(x)+' (Rounding)');
+        return Math.round(x);
+    }
 }
 function sum3(x,y){
     if(isNaN(x)||isNaN(y))
-    return NaN;
-else if(validate1(x,y))
-    return x+y;
+        return NaN;
+    else{
+        return validate1(x,y);
+    }
 }
-console.log(sum3(3.285,10.5222));
+console.log(sum3(3,10));
