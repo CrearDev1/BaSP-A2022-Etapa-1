@@ -180,3 +180,16 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Send work.
 
         Answer-https://creardev1.github.io/BaSP-A2022-Etapa-1/
+    
+### Week-06
+
+    Day1-Create css files sign-up and login .
+        -Create view fold and sign-up and login.html files.
+        -Create javascript fold and contact , login , sign-up files.
+        -Start writing sign-up.html .
+        -Design mobil first and after desktop with css.
+        -Add link re-direccion form sign-up in index.html.
+        
+    Day2-Complete sign-up design and continue with login.
+        -Save in git.
+        

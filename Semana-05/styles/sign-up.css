@@ -1,0 +1,109 @@
+
+main{
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    height: 80%;
+
+}
+section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:90%;
+    height: 80%;
+    margin-top:5%;
+    margin-bottom: 8%;
+    box-shadow:2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+section h2{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    padding:2%;
+    font-weight:700;
+    font-size:22px;
+}
+section form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:2%;
+    height: 100%
+}
+.container-form-01 div input{
+    height:30px;
+    width:100%;
+    margin-bottom:3%;
+    border:0.857341px solid #0000006e;
+    border-radius:3px;
+}
+.container-form-01 div label{
+    padding:2% 0 4% 0;
+    font-weight:bolder;
+    text-transform:uppercase;
+    font-size:12px;
+}
+.container-form-01{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.container-form-01{
+    width:80%;
+}
+#submit-div input{
+    width:90%;
+    height:36px;
+    padding:2%;
+    border:none;
+    background-color:#373867;
+    color:aliceblue;
+    font-size:12px;
+    font-weight:bolder;
+    
+}
+#submit-div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    padding-bottom: 5%;
+}
+@media screen and (min-width:768px){
+        section{
+            margin-top: 3%;
+            height: 80vh;
+        }
+        main{
+            height: 80vh;
+        }
+       .container-form-01{
+            flex-direction: row;
+       }
+       .container-form-01 :nth-child(1){
+            flex:1;
+            margin-right: 2%;
+            justify-content: center;
+       }
+       .container-form-01 :nth-child(2){
+            flex:1;
+            margin-left:2%;
+            justify-content:flex-start;
+            align-self:flex-start ;
+        }
+       #Name,#direccion{
+            margin-left:0;
+       }
+       #submit-div{
+            margin-top:2%;
+       }
+}
+@media screen and (min-width:768px){
+    main{
+        width:75%;
+        margin-left: 27%;
+        margin-bottom: 10%;
+    }
+}
