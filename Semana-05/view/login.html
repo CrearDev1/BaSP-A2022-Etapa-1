@@ -15,6 +15,9 @@
         <link rel="stylesheet" href="/BaSP-A2022-Etapa-1/Semana-05/styles/aside.css">
         <link rel="stylesheet" href="/BaSP-A2022-Etapa-1/Semana-05/styles/main.css">
         <link rel="stylesheet" href="/BaSP-A2022-Etapa-1/Semana-05/styles/footer.css">
+        <link rel="stylesheet" href="/BaSP-A2022-Etapa-1/Semana-05/styles/login.css">
+        <script src="../javascipt/login.js"></script>
+        
     </head>
     <body>
         <header>
@@ -68,7 +71,27 @@
         </aside>
         <main>
             <section>
-                
+                <h2>Sign In</h2>
+                <form action="#">
+                    <div class="container-form-01">
+                        <div>  
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email">
+                            <span id="valido1"></span>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">  
+                            <span id="valido2"></span>              
+                        </div>
+                        <div class="container-check">
+                            <input type="checkbox" id="remember" name="check-remember">
+                            <label id="rememberMe" for="remember">Remember me</label>
+                            <a href="#">Forgot a password?</a>
+                        </div>
+                        <div id="submit-div">
+                             <input type="submit" name="submit" id="submit" value="Login">
+                        </div>
+                    </div>
+                </form>
             </section>
         </main>
         <footer>

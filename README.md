@@ -192,4 +192,10 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         
     Day2-Complete sign-up design and continue with login.
         -Save in git.
-        
+
+        -Login complete html and css.
+        -Save in git
+
+        -Start validate the input from form.
+    
+    Day3-Continue validate input in login.html.

@@ -78,6 +78,7 @@ section form{
         }
         main{
             height: 80vh;
+            margin-bottom: 10%;
         }
        .container-form-01{
             flex-direction: row;
@@ -100,10 +101,10 @@ section form{
             margin-top:2%;
        }
 }
-@media screen and (min-width:768px){
+@media screen and (min-width:900px){
     main{
-        width:75%;
-        margin-left: 27%;
+        width:65vw;
+        margin-left: 32%;
         margin-bottom: 10%;
     }
 }
