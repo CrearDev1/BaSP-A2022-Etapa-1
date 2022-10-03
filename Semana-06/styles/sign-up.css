@@ -1,10 +1,19 @@
-
 main{
     background-color:white;
     display:flex;
     justify-content:center;
-    height: 80%;
-
+}
+.green-border{
+    border:solid 3px green;
+}
+.red-border{
+    border:solid 3px red;
+}
+.p-sign-up{
+    background-color:#f1f1d1;
+    border-radius:3px;
+    font-weight:bolder;
+    font-size:11px;
 }
 section{
     display:flex;
@@ -49,6 +58,19 @@ section form{
     display:flex;
     flex-direction:column;
     align-items:center;
+}
+.container-form-01 :nth-child(1){
+    width: 100%;
+}
+.container-form-01 :nth-child(2){
+    width: 100%;
+}
+.container-form-01 label{
+    margin-top: 2%;
+}
+.container-form-01 :nth-child(1) input,.container-form-01 :nth-child(2) input{
+    margin-bottom:3%;
+    margin-top:2%;
 }
 #submit-div input{
     width:90%;

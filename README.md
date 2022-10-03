@@ -199,3 +199,14 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
         -Start validate the input from form.
     
     Day3-Continue validate input in login.html.
+
+### Week-07
+
+    Day1-Copy and paste last week ,rename week.
+        -improve css in someone place(ex :sign-up).
+        -Use fech and complete request from login.
+        -Save in git.
+    
+    Day2-improve css sign-up and login.
+        -imporve js login and change class with element.classList.add and remove.
+        
