@@ -1,113 +1,106 @@
 window.onload= function(){
 
-    var letras="abcdefghyjklmnñopqrstuvwxyz";
-
-    function tiene_letras(texto){
-    for(i=0; i<texto.length; i++){
-       if (letras.indexOf(texto.charAt(i),0)!=-1){
-          return 1;
-       }
+    var letters="abcdefghyjklmnñopqrstuvwxyz";
+    
+    function has_letters(text){
+        for(i=0; i<text.length; i++){
+            if (letters.indexOf(text.charAt(i),0)!=-1){
+                return 1;
+            }
+        }
+        return 0;
     }
-    return 0;
- }
- var numeros="0123456789";
+    var numbers="0123456789";
 
- function tiene_numeros(texto){
-    for(i=0; i<texto.length; i++){
-       if (numeros.indexOf(texto.charAt(i),0)!=-1){
-          return 1;
-       }
-    }
-    return 0;
- }    
-    var campoE=document.getElementById('email').addEventListener('blur',function(){
-        campoE= event.target;
+    function has_numbers(text){
+        for(i=0; i<text.length; i++){
+            if (numbers.indexOf(text.charAt(i),0)!=-1){
+                return 1;
+            }
+        }
+        return 0;
+    };    
+    var email=document.getElementById('email').addEventListener('blur',function(){
+        email= event.target;
         var emailRegex=/^[^@]+@[^@]+\.[a-zA-Z]{2,}$/; 
-        if(emailRegex.test(campoE.value)){
-            campoE.style.border='solid 2px green';
+        if(emailRegex.test(email.value)){
+                email.classList.add('green-border');
             }else{
-                campoE.style.border='solid 2px red';
+                email.classList.add('red-border');
                 var messageE=document.getElementsByClassName('p');
+                messageE[0].classList.add('p-login');
                 messageE[0].innerText='Email error Ex:email1@gmail.com';
-                messageE[0].style.padding='2%';
-                messageE[0].style.backgroundColor='#ffff33';
         }
     }); 
-   var campoE=document.getElementById('email').addEventListener('focus', function(){
-        campoE= event.target;
+    var email=document.getElementById('email').addEventListener('focus', function(){
+        email= event.target;
         var emailRegex=/^[^@]+@[^@]+\.[a-zA-Z]{2,}$/;
-        if(emailRegex.test(campoE.value)){
-            campoE.style.border='none';
-        }else{
-            campoE.style.border='none';
-            var messageE=document.getElementsByClassName('p');
-            messageE[0].innerText='';
-            messageE[0].style.backgroundColor='inherit';
-        }
+        if(emailRegex.test(email.value)){
+            email.classList.remove('green-border');
+            }else{
+                email.classList.remove('red-border');
+                var messageE=document.getElementsByClassName('p');
+                messageE[0].classList.remove('p-login');
+                messageE[0].innerText='';
+            }
     });
-    var campoP=document.getElementById('password').addEventListener('blur',function (){
-        campoP= event.target; 
-        if(tiene_letras(campoP.value)!=0&&tiene_numeros(campoP.value)!=0&&(campoP.value.length)>=8){
-            campoP.style.border='solid 2px green';
+    var password=document.getElementById('password').addEventListener('blur',function (){
+        password= event.target; 
+        if(has_letters(password.value)!=0&&has_numbers(password.value)!=0&&(password.value.length)>=8){
+            password.classList.add('green-border');
         }else{
-            campoP.style.border='solid 2px red';
+            password.classList.add('red-border');
             var messageP=document.getElementsByClassName('p');
+            messageP[1].classList.add('p-login');
             messageP[1].innerText='Password error: use numbers ,letters\nand more than 8 characters';
-            messageP[1].style.marginTop='2%';
-            messageP[1].style.backgroundColor='#ffff33';
         }  
     }); 
-    var campoP=document.getElementById('password').addEventListener('focus', function(){
-        campoP= event.target;
-        if(tiene_letras(campoP.value)!=0&&tiene_numeros(campoP.value)!=0&&(campoP.value.length)>=8){
-            campoP.style.border='none';
+    var password=document.getElementById('password').addEventListener('focus', function(){
+        password= event.target;
+        if(has_letters(password.value)!=0&&has_numbers(password.value)!=0&&(password.value.length)>=8){
+            password.classList.remove('green-border');
             }else{
-                campoP.style.border='none';
+                password.classList.remove('red-border');
                 var messageP=document.getElementsByClassName('p');
+                messageP[1].classList.remove('p-login');
                 messageP[1].innerText='';
-                messageP[1].style.backgroundColor='inherit';
             }
     });        
     var submit =document.getElementById('submit').addEventListener('click', function(e){
         e.preventDefault();
         var emailRegex=/^[^@]+@[^@]+\.[a-zA-Z]{2,}$/; 
-        var campoE=document.getElementById('email');
-        var campoP=document.getElementById('password');
-        var doubleValidate=emailRegex.test(campoE.value)&&tiene_letras(campoP.value)!=0&&
-            tiene_numeros(campoP.value)!=0&&(campoP.value.length)>=8;
+        var email=document.getElementById('email');
+        var password=document.getElementById('password');
+        var doubleValidate=emailRegex.test(email.value)&&has_letters(password.value)!=0&&
+            has_numbers(password.value)!=0&&(password.value.length)>=8;
         if(doubleValidate){
-            alert('Email: '+campoE.value+'\n'+'Password :'+campoP.value);
-        }else if(emailRegex.test(campoE.value)){
-            alert('Email: '+campoE.value+'\n'+'Password :'+campoP.value+
-            '\nPassword error: use numbers and letters \nand more than 8 characters');
-        }else if(tiene_letras(campoP.value)!=0&&tiene_numeros(campoP.value)!=0&&(campoP.value.length)>=8){
-            alert('Email: '+campoE.value+'\n'+'Password :'+campoP.value+'\n**Email error Ex:email1@gmail.com**');
+            alert('Email: '+email.value+'\n'+'Password :'+password.value);
+        }else if(emailRegex.test(email.value)){
+            alert('Email: '+email.value+'\n'+'Password :'+password.value+
+            '\nPassword error: use numbers, letters \nand more than 8 characters');
+        }else if(has_letters(password.value)!=0&&has_numbers(password.value)!=0&&(password.value.length)>=8){
+            alert('Email: '+email.value+'\n'+'Password :'+password.value+'\n**Email error Ex:email1@gmail.com**');
         };    
         if(doubleValidate){
-            var emailLogin=campoE.value;
-            var passwordLogin=campoP.value;
+            var emailLogin=email.value;
+            var passwordLogin=password.value;
             var url='https://basp-m2022-api-rest-server.herokuapp.com/login?email='+emailLogin+'&password='+passwordLogin;
 
-             fetch(url)
+            fetch(url)
                 .then(function(response){
                     return response.json();
                 })
                 .then(function(data){
                     console.log(data);
                     if(data.success==true){
-                        alert('Successful request'+
-                        '\n'+data.msg);
+                        alert('Successful request'+'\n'+data.msg);
                     }else{
-                        alert('wrong request'+
-                        '\n'+data.msg);
+                        alert('wrong request'+'\n'+data.msg);
                     }
                 })
                 .catch(function(error){
                     console.log('error',error);
-            });
+                });
         }
     });
 }
-
-
-    
