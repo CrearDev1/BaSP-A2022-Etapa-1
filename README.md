@@ -210,3 +210,9 @@ Day2- Create the label article and put a title with h2(FUNCTIONALITIES).
     Day2-improve css sign-up and login.
         -imporve js login and change class with element.classList.add and remove.
         
+    Day3-Validate al input in sign-up add request and save values in localStorage.
+        -Save in git.
+        
+        -Add data inside localStorage in inputs 
+        -Finish work
+        -Save in git.

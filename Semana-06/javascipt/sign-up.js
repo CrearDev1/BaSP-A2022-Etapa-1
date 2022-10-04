@@ -1,5 +1,29 @@
 window.onload=function(){
 
+    var dob=document.getElementById('dob');
+        dob.value=localStorage.getItem('dob') 
+    var name=document.getElementById('Name')
+        name.value=(localStorage.getItem('name'))
+    var lastName=document.getElementById('LastName');
+        lastName.value=(localStorage.getItem('lastName'));
+    var dni=document.getElementById('dni');
+        dni.value=localStorage.getItem('dni');
+    var phone=document.getElementById('phone');
+        phone.value=localStorage.getItem('phone');
+    var address=document.getElementById('address');
+        address.value=localStorage.getItem('adress');
+    var location=document.getElementById('location');
+        location.value=localStorage.getItem('city');
+    var postalCode=document.getElementById('postal-code');
+        postalCode.value=localStorage.getItem('zip');
+    var email=document.getElementById('email');
+        email.value=localStorage.getItem('email');
+    var password=document.getElementById('password');
+        password.value=localStorage.getItem('password');
+    var passwordR=document.getElementById('repeat-password');
+        passwordR.value=localStorage.getItem('password');
+    
+    
     var letters="abcdefghyjklmnñopqrstuvwxyz";
 
     function has_letters(text){
@@ -300,12 +324,13 @@ window.onload=function(){
         var dob=dob.value;
 
         
-    var dateSplit = dob.split('-');
-    dob= dateSplit[1] + '/'+dateSplit[2]+ '/' + dateSplit[0];
+        var dateSplit = dob.split('-');
+        var   dobNewFormat= dateSplit[1] + '/'+dateSplit[2]+ '/' + dateSplit[0];
+    
 
         var url='https://basp-m2022-api-rest-server.herokuapp.com/signup?name='+name+'&lastName='+lastName+
                 '&dni='+dni+'&phone='+phone+'&address='+addres+'&city='+location+'&zip='+postalCode+
-                '&email='+email+'&password='+password+'&dob='+dob;
+                '&email='+email+'&password='+password+'&dob='+dobNewFormat;
 
         fetch(url)
         .then(function(response){
@@ -325,10 +350,10 @@ window.onload=function(){
                 localStorage.setItem('email',email);
                 localStorage.setItem('password',password);
                 localStorage.setItem('dob',dob);
-                }else{
-                    alert('wrong request\n'+data.errors.msg);
-                }
-            })
+            }else{
+                alert('wrong request\n'+data.errors.msg);
+            }
+        })
         .catch(function(error){
             console.log('error',error);
         })
